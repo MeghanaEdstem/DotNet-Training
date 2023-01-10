@@ -2,7 +2,7 @@
 //returnType MethodName(paramType parmName,......){}
 
 //With no return types
-/*
+
 using System.Globalization;
 
 Console.Write("Enter the number 1 : ");
@@ -35,7 +35,7 @@ int GreaterThan(int a, int b, int c)
 
 int largest = GreaterThan(10, 15, 8);
 Console.WriteLine($"Largest number is {largest}");
-*/
+
 //String manipulation
 //Concatination
 string firstName = "meghana";
@@ -88,7 +88,7 @@ if (string.Equals(lastName,lastName))
 {
     Console.WriteLine("firstname and lastname are equal");
 }
-/*
+
 //DateTime related functionality
 // Empty DateTime
 DateTime date = new DateTime();
@@ -177,4 +177,3 @@ foreach (string name in devs)
 }
 
 //api documentations
-*/
