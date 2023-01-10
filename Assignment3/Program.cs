@@ -8,7 +8,7 @@ If no more turns are available print "You lost" and exit
 If guessed correctly print "You win" and exit 
 */
 
-
+/*
 int turns = 5;
 int number = 0;
 Random rnd = new Random();
@@ -37,5 +37,44 @@ for (int i = 0; i < 5; i++)
         Console.WriteLine($"You lost");
     }
 }
+Console.WriteLine();
+Console.WriteLine("For loop exited");
+*/
+ 
+//or
+int num = 0;
+
+Random rnd = new Random();
+int x = rnd.Next(0, 100);
+
+Console.WriteLine("You have 5 chances here");
+
+for (int i = 4; i >= 0; i--)
+{
+    Console.Write("Please enter a number: ");
+    num = Convert.ToInt32(Console.ReadLine());
+    if (i > 0)
+    {
+        if (num > x)
+        {
+            Console.WriteLine("Guessed number is greater than number x");
+        }
+        else if (num < x)
+        {
+            Console.WriteLine("Guessed number is less than number x");
+        }
+        else
+        {
+            Console.WriteLine($"You win");
+            break;
+        }
+    }
+    else
+    {
+        Console.WriteLine($"You lost");
+    }
+    Console.WriteLine($"Remaining chances : {i}");
+}
+
 Console.WriteLine();
 Console.WriteLine("For loop exited");
