@@ -3,25 +3,29 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "HelloWorld\HelloWorld.csproj", "{917CD081-EC42-42E8-B4F8-4C8D1F74F451}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWorld", "HelloWorld\HelloWorld.csproj", "{917CD081-EC42-42E8-B4F8-4C8D1F74F451}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicSyntax", "BasicSyntax\BasicSyntax.csproj", "{23EB7BAB-0DA3-4C2C-8C13-18D490D8CC92}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicSyntax", "BasicSyntax\BasicSyntax.csproj", "{23EB7BAB-0DA3-4C2C-8C13-18D490D8CC92}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConditionalOperators", "ConditionalOperators\ConditionalOperators.csproj", "{0EB19B42-0AA5-4EFC-9390-A1E722C2B1A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConditionalOperators", "ConditionalOperators\ConditionalOperators.csproj", "{0EB19B42-0AA5-4EFC-9390-A1E722C2B1A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathematicalOperators", "MathematicalOperators\MathematicalOperators.csproj", "{A53B5297-A83C-499F-B827-7394C84D94A4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MathematicalOperators", "MathematicalOperators\MathematicalOperators.csproj", "{A53B5297-A83C-499F-B827-7394C84D94A4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepetitionStatements", "RepetitionStatements\RepetitionStatements.csproj", "{CA15615C-BAC8-4385-AB74-48FD4762AD47}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RepetitionStatements", "RepetitionStatements\RepetitionStatements.csproj", "{CA15615C-BAC8-4385-AB74-48FD4762AD47}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment1", "Assignment1\Assignment1.csproj", "{A883185A-A87B-4A65-A0E1-0B71E376CCED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Assignment1", "Assignment1\Assignment1.csproj", "{A883185A-A87B-4A65-A0E1-0B71E376CCED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment2", "Assignment2\Assignment2.csproj", "{0D5AB822-22D8-4B32-A187-FD27A51E9B78}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Assignment2", "Assignment2\Assignment2.csproj", "{0D5AB822-22D8-4B32-A187-FD27A51E9B78}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment3", "Assignment3\Assignment3.csproj", "{676FBC6A-143B-4FAF-8FF9-982D4E59B392}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Assignment3", "Assignment3\Assignment3.csproj", "{676FBC6A-143B-4FAF-8FF9-982D4E59B392}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvancedConstructs", "AdvancedConstructs\AdvancedConstructs.csproj", "{5FC1E86E-6A42-44B8-85D4-EF3E9C8EE5A4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdvancedConstructs", "AdvancedConstructs\AdvancedConstructs.csproj", "{5FC1E86E-6A42-44B8-85D4-EF3E9C8EE5A4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day2Assignment", "Day2Assignment\Day2Assignment.csproj", "{B46583F1-5030-4AFD-ABBC-A719410C2F56}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day2Assignment", "Day2Assignment\Day2Assignment.csproj", "{B46583F1-5030-4AFD-ABBC-A719410C2F56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPConsepts", "OOPConsepts\OOPConsepts.csproj", "{18F5E03E-2943-4846-9474-58499C356668}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day3Assignment1", "Day3Assignment1\Day3Assignment1.csproj", "{61B4C98B-2CF3-4264-A5C1-5349E78A0FAE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +73,14 @@ Global
 		{B46583F1-5030-4AFD-ABBC-A719410C2F56}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B46583F1-5030-4AFD-ABBC-A719410C2F56}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B46583F1-5030-4AFD-ABBC-A719410C2F56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18F5E03E-2943-4846-9474-58499C356668}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18F5E03E-2943-4846-9474-58499C356668}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18F5E03E-2943-4846-9474-58499C356668}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18F5E03E-2943-4846-9474-58499C356668}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61B4C98B-2CF3-4264-A5C1-5349E78A0FAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61B4C98B-2CF3-4264-A5C1-5349E78A0FAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61B4C98B-2CF3-4264-A5C1-5349E78A0FAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61B4C98B-2CF3-4264-A5C1-5349E78A0FAE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
