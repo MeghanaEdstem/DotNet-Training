@@ -23,13 +23,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdvancedConstructs", "Advan
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day2Assignment", "Day2Assignment\Day2Assignment.csproj", "{B46583F1-5030-4AFD-ABBC-A719410C2F56}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPConsepts", "OOPConsepts\OOPConsepts.csproj", "{18F5E03E-2943-4846-9474-58499C356668}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOPConsepts", "OOPConsepts\OOPConsepts.csproj", "{18F5E03E-2943-4846-9474-58499C356668}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day3Assignment1", "Day3Assignment1\Day3Assignment1.csproj", "{61B4C98B-2CF3-4264-A5C1-5349E78A0FAE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day3Assignment1", "Day3Assignment1\Day3Assignment1.csproj", "{61B4C98B-2CF3-4264-A5C1-5349E78A0FAE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingCart", "ShoppingCart\ShoppingCart.csproj", "{C744980D-5485-45B5-AE00-5509DDFB88AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShoppingCart", "ShoppingCart\ShoppingCart.csproj", "{C744980D-5485-45B5-AE00-5509DDFB88AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrenchDeck", "FrenchDeck\FrenchDeck.csproj", "{450F47DF-3056-46D4-A374-40FC0717E910}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FrenchDeck", "FrenchDeck\FrenchDeck.csproj", "{450F47DF-3056-46D4-A374-40FC0717E910}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypesRevisited", "TypesRevisited\TypesRevisited.csproj", "{9F086F8C-CF14-47DE-A74C-FBA006FED5D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankStatementAnalyse", "BankStatementAnalyse\BankStatementAnalyse.csproj", "{5C5731D0-A41C-464A-9EBE-3F2F1FAC99E5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +97,14 @@ Global
 		{450F47DF-3056-46D4-A374-40FC0717E910}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{450F47DF-3056-46D4-A374-40FC0717E910}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{450F47DF-3056-46D4-A374-40FC0717E910}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F086F8C-CF14-47DE-A74C-FBA006FED5D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F086F8C-CF14-47DE-A74C-FBA006FED5D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F086F8C-CF14-47DE-A74C-FBA006FED5D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F086F8C-CF14-47DE-A74C-FBA006FED5D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C5731D0-A41C-464A-9EBE-3F2F1FAC99E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C5731D0-A41C-464A-9EBE-3F2F1FAC99E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C5731D0-A41C-464A-9EBE-3F2F1FAC99E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C5731D0-A41C-464A-9EBE-3F2F1FAC99E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
