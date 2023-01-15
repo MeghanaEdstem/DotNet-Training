@@ -9,4 +9,4 @@ Console.WriteLine("Enter a value for a,b,c: ");
 a = Convert.ToDouble(Console.ReadLine());
 b = Convert.ToDouble(Console.ReadLine());
 c = Convert.ToDouble(Console.ReadLine());
-Console.WriteLine($" {(((a + b) / c) * a)} ");
+Console.WriteLine($"(((a + b) / c) * a) = {(((a + b) / c) * a)} ");
