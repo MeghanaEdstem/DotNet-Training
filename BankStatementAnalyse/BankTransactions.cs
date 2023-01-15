@@ -1,4 +1,4 @@
-﻿public class BankTransactions 
+﻿public class BankTransactions
 {
     public DateTime TransactionDate { get; set; }
     public double Amount { get; set; }

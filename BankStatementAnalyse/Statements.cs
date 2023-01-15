@@ -23,13 +23,7 @@
             transactions.Add(statement);
         }
     }
-    public void PrintBankTransactions()
-    {
-        foreach (var item in transactions)
-        {
-            Console.WriteLine(item);
-        }
-    }
+    
     public double BankBalance()
     {
         double balance = 0.0;
@@ -53,4 +47,11 @@
         return netBalance;
     }
 
+    public void PrintBankTransactions()
+    {
+        foreach (var item in transactions)
+        {
+            Console.WriteLine(item);
+        }
+    }
 }
